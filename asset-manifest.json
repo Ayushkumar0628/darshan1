@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/darshan1/static/css/main.65b67af6.css",
+    "main.js": "/darshan1/static/js/main.af81581c.js",
+    "static/js/787.415be00b.chunk.js": "/darshan1/static/js/787.415be00b.chunk.js",
+    "index.html": "/darshan1/index.html",
+    "main.65b67af6.css.map": "/darshan1/static/css/main.65b67af6.css.map",
+    "main.af81581c.js.map": "/darshan1/static/js/main.af81581c.js.map",
+    "787.415be00b.chunk.js.map": "/darshan1/static/js/787.415be00b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65b67af6.css",
+    "static/js/main.af81581c.js"
+  ]
+}
