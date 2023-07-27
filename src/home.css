@@ -1,0 +1,40 @@
+
+.features{
+    padding: 10vh 12% 2vh 12%;
+   
+    font-size: 22px;
+    background-color: rgb(37, 37, 37);
+}
+
+.row{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 10vh;
+    color:azure;
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 10vh; 
+}
+
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10vh;
+    color: red;
+}
+

@@ -1,0 +1,43 @@
+
+.footer{
+    background-color: black;
+    display: flex;
+    border-top: orangered;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-left: 1vb;
+    margin-top: 5vh;
+}
+.col a{
+    display: block;
+    text-decoration: none;
+    color: #efeeeb;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+}
+.col :hover{
+    color:  orangered;
+}
+.row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+    margin-left: 25vb;
+}
+
+img{
+    margin-left: 12vb;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 2vb;
+    width: 55vb;
+}
+
+

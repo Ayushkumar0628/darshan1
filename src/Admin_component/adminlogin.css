@@ -1,0 +1,32 @@
+
+  
+  .login-container {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    height: 68vh;
+    max-width: 60vb;
+    padding: 10vh;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  }
+  input{
+    margin:2vh;
+    padding: 5px;
+  }
+  label{
+    text-align: center;
+  }
+
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
