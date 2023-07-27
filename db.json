@@ -1,19 +1,91 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": 1,
+    "title": "Barbie",
+    "rating": "9.2",
+    "gener": "romance",
+    "selectedDate": "2023-07-16",
+    "featured": "No",
+    "video": "https://www.youtube.com/embed/-BXwKdwdV-E",
+    "pic": "https://deadline.com/wp-content/uploads/2023/04/barbie-BARBIE_VERT_TSR_W_TALENT_2764x4096_DOM_rgb.jpg?w=800"
+  },
+  {
+    "id": 2,
+    "title": "Avengers",
+    "rating": "8",
+    "gener": "action",
+    "selectedDate": "2019-04-26",
+    "featured": "Yes",
+    "video": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "pic": "https://static.hd-trailers.net/images/-184368-poster-xlarge.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Joker",
+    "rating": "7.6",
+    "gener": "drama",
+    "selectedDate": "2019-10-02",
+    "featured": "Yes",
+    "video": "https://www.youtube.com/embed/zAGVQLHvwOY",
+    "pic": "https://shorturl.at/mzA29"
+  },
+  {
+    "id": 4,
+    "title": "Sanam Re",
+    "rating": "8.2",
+    "gener": "romance",
+    "selectedDate": "2016-02-12",
+    "featured": "No",
+    "video": "https://www.youtube.com/embed/fvQZkpnb764",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVSdooAJN9i44K01cif8CSk7Zx2PutX2BFFA&usqp=CAU"
+  },
+  {
+    "id": 5,
+    "title": "The Flash",
+    "rating": "9.1",
+    "gener": "action",
+    "featured": "Yes",
+    "video": "https://www.youtube.com/embed/fY_WCvxJNKU",
+    "pic": "https://shorturl.at/yFIM0"
+  },
+  {
+    "id": 6,
+    "title": "Blue bettle",
+    "rating": "7.8",
+    "gener": "action",
+    "selectedDate": "2023-08-18",
+    "featured": "No",
+    "video": "https://www.youtube.com/embed/wgY9iO-fji8",
+    "pic": "https://shorturl.at/pxyA9"
+  },
+  {
+    "id": 7,
+    "title": "The Lunchbox",
+    "rating": "9.9",
+    "gener": "drama",
+    "selectedDate": "2013-09-20",
+    "featured": "No",
+    "video": "https://www.youtube.com/embed/sK3R0rvnlPs",
+    "pic": "https://shorturl.at/CHWZ8"
+  },
+  {
+    "title": "K.G.F",
+    "rating": "8.7",
+    "gener": "action",
+    "selectedDate": "2018-12-20",
+    "featured": "No",
+    "video": "https://www.youtube.com/embed/-KfsY-qwBS0",
+    "pic": "https://shorturl.at/ltGIM",
+    "id": 8
+  },
+  {
+    "title": "Dilwale",
+    "rating": "6",
+    "gener": "romance",
+    "selectedDate": "2015-12-18",
+    "featured": "No",
+    "video": "https://www.youtube.com/embed/AHuOo1DLcRc",
+    "pic": "https://shorturl.at/gjDT7",
+    "id": 9
   }
-}
+]
