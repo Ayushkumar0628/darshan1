@@ -9,7 +9,7 @@ const Nav=()=>{
             <nav className="navbar">
             <div className="logo"> 
             <NavLink to='/'>
-            <img src='./logo.png' alt='DARSHAN' className='logo'/>
+            <img src='images/logo.png' alt='DARSHAN' className='logo'/>
             </NavLink>
             </div>
             <div className="navlink">

@@ -48,7 +48,7 @@ export const FetchShowList=()=>{
     return (dispatch)=>{
       dispatch(makeRequest());
       //setTimeout(() => {
-        axios.get('http://localhost:7000/show').then(res=>{
+        axios.get('https://show-79ll.onrender.com/show').then(res=>{
             const showlist=res.data;
             dispatch(getShowList(showlist));
           }).catch(err=>{
@@ -63,7 +63,7 @@ export const RemoveShow=(code)=>{
     return (dispatch)=>{
       dispatch(makeRequest());
       //setTimeout(() => {
-        axios.delete('http://localhost:7000/show/'+code).then(res=>{
+        axios.delete('https://show-79ll.onrender.com/show'+code).then(res=>{
             dispatch(deleteShow());
           }).catch(err=>{
             dispatch(failRequest(err.message))
@@ -77,7 +77,7 @@ export const FunctionAddShow=(data)=>{
     return (dispatch)=>{
       dispatch(makeRequest());
       //setTimeout(() => {
-        axios.post('http://localhost:7000/show',data).then(res=>{
+        axios.post('https://show-79ll.onrender.com/show',data).then(res=>{
             dispatch(addShow());
             toast.success('Show Added successfully.')
           }).catch(err=>{
@@ -92,7 +92,7 @@ export const FunctionUpdateShow=(data,code)=>{
     return (dispatch)=>{
       dispatch(makeRequest());
       //setTimeout(() => {
-        axios.put('http://localhost:7000/show/'+code,data).then(res=>{
+        axios.put('https://show-79ll.onrender.com/show'+code,data).then(res=>{
             dispatch(updateShow());
             toast.success('Show Updated successfully.')
           }).catch(err=>{
@@ -106,7 +106,7 @@ export const FetchShowObj=(code)=>{
     return (dispatch)=>{
       dispatch(makeRequest());
       //setTimeout(() => {
-        axios.get('http://localhost:7000/show/'+code).then(res=>{
+        axios.get('https://show-79ll.onrender.com/show'+code).then(res=>{
             const showlist=res.data;
             dispatch(getShowObj(showlist));
           }).catch(err=>{

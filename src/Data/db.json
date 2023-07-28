@@ -3,9 +3,9 @@
     {
       "id": 1,
       "title": "Barbie",
-      "rating": "9.2",
+      "rating": "9.4",
       "gener": "romance",
-      "selectedDate": "2023-07-16",
+      "selectedDate": "2023-07-21",
       "featured": "No",
       "video": "https://www.youtube.com/embed/-BXwKdwdV-E",
       "pic": "https://deadline.com/wp-content/uploads/2023/04/barbie-BARBIE_VERT_TSR_W_TALENT_2764x4096_DOM_rgb.jpg?w=800"
@@ -45,6 +45,7 @@
       "title": "The Flash",
       "rating": "9.1",
       "gener": "action",
+      "selectedDate": "2023-06-15",
       "featured": "Yes",
       "video": "https://www.youtube.com/embed/fY_WCvxJNKU",
       "pic": "https://shorturl.at/yFIM0"

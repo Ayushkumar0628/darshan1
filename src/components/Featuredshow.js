@@ -8,7 +8,7 @@ const FeaturedMoviesPage = () => {
 
   useEffect(() => {
     
-    axios.get('http://localhost:7000/show')
+    axios.get('https://show-79ll.onrender.com/show')
       .then(response => {
         // Filter movies where the 'featured' key is set to 'yes'
         const featuredMoviesData = response.data.filter(movie => movie.featured === 'Yes');

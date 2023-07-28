@@ -14,7 +14,7 @@ const [movies, setMovies] = useState([]);
 
  const fetchMovies = async () => {
     try {
-      const response = await axios.get('http://localhost:7000/show');
+      const response = await axios.get('https://show-79ll.onrender.com/show');
       setMovies(response.data);
     } catch (error) {
       console.error('Error fetching movies:', error);
